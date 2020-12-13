@@ -193,7 +193,7 @@ public class Main {
         highestFreq.put(maxNGram, max);
     }
 
-    // Gets the text files paths
+    // Gets the text files paths --> Assuming in the folder are only readable text files
     private static String[] getTexts(String folderPath) {
         File folder = new File(folderPath);
         if (folder.exists()) {
